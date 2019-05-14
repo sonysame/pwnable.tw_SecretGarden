@@ -20,7 +20,7 @@ stdout의 vtable은 _IO_2_1_stdout+216이다.
 call   QWORD PTR [rax+0x38] 에 의해 _IO_file_jumps+0x38이 불러진다.  
 이때,   
 ```
-_IO_2_1_stdout+216: IO_2_1_stdout+208-0x38  
+_IO_2_1_stdout+216: _IO_2_1_stdout+208-0x38  
 _IO_2_1_stdout+208: one_gadget
 ```
 을 넣어서 one_gadget을 실행시켜줄 수 있다!!  
